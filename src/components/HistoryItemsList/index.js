@@ -26,7 +26,6 @@ const HistoryItemsList = props => {
           src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
           alt="delete"
           className="d-bin"
-          testid="delete"
         />
       </button>
     </li>
