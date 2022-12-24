@@ -2,10 +2,10 @@ import './index.css'
 
 const HistoryItemsList = props => {
   const {historyList, removeItem} = props
-  const {title, logoUrl, timeAccessed, domainUrl} = historyList
+  const {id, title, logoUrl, timeAccessed, domainUrl} = historyList
 
   const removeListItem = () => {
-    removeItem(title)
+    removeItem(id)
   }
 
   return (

@@ -42,7 +42,7 @@ class HistoryItems extends Component {
 
     if (removeIds) {
       allItems = allItems.filter(eachItem =>
-        removeIds.every(item => item !== eachItem.title),
+        removeIds.every(item => item !== eachItem.id),
       )
     }
     return (
